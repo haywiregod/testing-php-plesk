@@ -1,5 +1,5 @@
 <?php
-if($_SERVER['HTTP_HOST']=='www.thecassava.co' || $_SERVER['HTTP_HOST']=='thecassava.co'){
+if($_SERVER['HTTP_HOST']=='api.thecassava.co' || $_SERVER['HTTP_HOST']=='www.api.thecassava.co'){
   // production server
   // define("SERVER_TYPE","PROD");
   $servername = "localhost:3306";
