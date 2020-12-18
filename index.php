@@ -1,5 +1,5 @@
 <?php
-header("Content type: application/json");
+header('Content-Type: application/json');
 include('includes/db.php');
 include('product/ProductClass.php');
 $pid = $_GET['pid'];
