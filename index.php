@@ -1,8 +1,8 @@
 <?php
-header('Content-Type: application/json');
 include('includes/db.php');
 include('product/ProductClass.php');
 $result = $conn->query('SELECT * FROM `products`'); 
+var_dump($result);
 if (!$result) die('Couldn\'t fetch records'); 
 $num_fields = mysqli_num_fields($result); 
 $headers = array(); 
